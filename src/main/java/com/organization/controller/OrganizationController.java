@@ -6,6 +6,7 @@ public class OrganizationController {
 
     @RequestMapping("/hello")
     public String printHello(){
-        return "Hello Organization Service";
+        String string = "Hello Organization Service";
+        return string;
     }
 }
